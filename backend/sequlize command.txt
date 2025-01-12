@@ -1,0 +1,7 @@
+migration : sequelize migration:create --name users    => sequelize db:migrate
+
+
+=> get request data :-
+      params : req.params
+      url : req.query
+      body : req.body
